@@ -24,8 +24,7 @@ public class AlteraTrabalhadorController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		this.doPost(request, response);
 	}
-
-
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html; charset=UTF-8");
@@ -49,9 +48,6 @@ public class AlteraTrabalhadorController extends HttpServlet {
         System.out.println("post ok");
         
         //Validacao
-       
-        
-
         Trabalhador trab = new Trabalhador(decodedNome, decodedSobrenome, decodedLocalidade, telefone,
         		idade, cep, uf, decodedLogradouro, decodedBairro);
         trab.setId(id);
