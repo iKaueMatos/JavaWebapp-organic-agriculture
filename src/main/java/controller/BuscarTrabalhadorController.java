@@ -3,7 +3,6 @@ package controller;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import model.Trabalhador;
-
 
 @WebServlet("/BuscarTrabalhadorController")
 public class BuscarTrabalhadorController extends HttpServlet {
@@ -33,14 +31,7 @@ public class BuscarTrabalhadorController extends HttpServlet {
 		 trabalhador = new Trabalhador().buscaTabela(nome);
 		 request.setAttribute("trabalhador", trabalhador);
 		 RequestDispatcher dispatcher = request.getRequestDispatcher("table.jsp");
-		dispatcher.forward(request, response);
-		
-//		for (Trabalhador pessoa : trabalhador) {
-//			System.out.println("Test: " + pessoa.getNome());
-//		}
-	     
-	     
-		
+		dispatcher.forward(request, response);		
+	
 	}
-
 }
