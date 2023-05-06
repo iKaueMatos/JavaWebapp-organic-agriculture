@@ -27,7 +27,8 @@ public class Conexao {
 	           boolean conectado = false;
 	           return conectado;
 	       }
-	      }
+		
+	}
 
 		
 	public void insert(Trabalhador trabalhador) {
@@ -119,23 +120,6 @@ public class Conexao {
 			System.out.println("Erro no arraylist"+ e.getMessage());
 		}
 		
-		
-//		finally{
-//			try{
-//				if(pesquisa != null)
-//					pesquisa.close();
-//				} catch(Exception e2){
-//					e2.printStackTrace();
-//				}
-//				
-//				try{
-//					if(conn2 != null)
-//					conn2.close();
-//				} catch (Exception e2){
-//					e2.printStackTrace();
-//				}
-//			}
-		 
 		return trabalhador;
 	}
 	
@@ -184,30 +168,11 @@ public class Conexao {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();	
-  		} finally {
-			  try {
-				if (pesquisa != null){
-					pesquisa.close();
-				}
-			} catch (Exception e2) {
-				e2.printStackTrace();
-			}
-			try {
-				if (conn != null){
-					conn.close();
-				}
-			} catch (Exception e2) {
-				e2.printStackTrace();
-			}
-			  
-		  }
-		
+  		} 
+	
 		return pessoa;
 	}
 
-	
-	
-	
 	public void AlterarTrabalhador(Trabalhador tr) {
         System.out.println("entrou no metodo ok");
 
@@ -222,37 +187,5 @@ public class Conexao {
 		} catch (Exception e) {
 			e.printStackTrace();		
 		} 
-		//finally{
-//			try{
-//				if(pesquisa != null)
-//					pesquisa.close();
-//				} catch(Exception e2){
-//					e2.printStackTrace();
-//				}
-		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-//	JA FOI EXECUTADO!!!!!!!!!!
-	
-//	public static void createTable() {	
-//		String url = "jdbc:mysql://server12mysql.mysql.database.azure.com:3306/apsjava";
-//		String comando = "create table Trabalhadores (id INT(3) NOT NULL AUTO_INCREMENT, nome VARCHAR(20) NOT NULL, sobrenome VARCHAR(50) NOT NULL, localidade VARCHAR(200) NOT NULL, telefone VARCHAR(200) NOT NULL, idade VARCHAR(2) NOT NULL, cep VARCHAR(200) NOT NULL, uf VARCHAR(3) NOT NULL, bairro VARCHAR(200), primary key(id));";
-//		try {
-//			Connection conn = DriverManager.getConnection(url, "Kaue", "Bontlindo12/");
-//			PreparedStatement adicionar = conn.prepareStatement(comando);
-//			adicionar.execute();
-//			System.out.println("tabela criada");
-//			conn.close();
-//		} catch (Exception e) {
-//			System.out.println("Erro ao criar dados");
-//		}	
-//	}
-	
   }
