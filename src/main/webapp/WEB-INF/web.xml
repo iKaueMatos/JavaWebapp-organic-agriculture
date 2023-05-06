@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Aps</display-name>
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>controller.RegisterData</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>buscar</servlet-name>
+    <servlet-class>controller.BuscarTrabalhadorController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>modificar</servlet-name>
+    <servlet-class>controller.ModificarTrabalhadoresController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>alterar</servlet-name>
+    <servlet-class>controller.AlteraTrabalhadorController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>buscar</servlet-name>
+    <url-pattern>/BuscarTrabalhador</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>modificar</servlet-name>
+    <url-pattern>/ModificarTrabalhadores</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>alterar</servlet-name>
+    <url-pattern>/AlteraTrabalhador</url-pattern>
+  </servlet-mapping>
+
+</web-app>
