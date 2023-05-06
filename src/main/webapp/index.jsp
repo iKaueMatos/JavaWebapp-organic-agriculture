@@ -181,7 +181,7 @@
     <!-- Time  Developers-->
     <div class="team text-center my-40">
         <h1 class="text-4xl text-black font-bold leading-[55px] lg:text-[42px]" id="Desenvolvedores">Desenvolvedores</h1>
-        <p class="my-8 text-black w-2/3 lg:w-1/3 mx-auto">ConheÃ§a os desenvolvedores dessa aplicaÃ§Ã£o voltada para o seu entendimento sobre a agricultura orgÃ¢nica dentro do Brasil.</p>
+        <p class="my-8 text-black w-2/3 lg:w-1/3 mx-auto">Conheça os desenvolvedores dessa aplicação voltada para o seu entendimento sobre a agricultura orgânica dentro do Brasil.</p>
         <div class="cards flex justify-center gap-10 flex-wrap">
             <div class="card w-[270px] py-8 px-14 text-black text-center">
                 <img class="mx-auto -mb-[15px] rounded h-40" src="./img/Desenvolvedores/ellen1.jpeg" alt="Desenvolvedora ellen">
