@@ -18,6 +18,8 @@ Processador de 64 bits com 2 GHz ou mais rápido
 
 🌟 Apache Tomcat versão 8.5 ou superior
 
+🌟 IDE:ItelliJ IDEA e Eclipse
+
 Para configurar este projeto, siga as etapas abaixo:
 
 Clone este repositório em sua máquina local seguindo o passo disponibilizado nos manuais.
