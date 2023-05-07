@@ -17,6 +17,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="img/headerIcons/favicon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -25,22 +26,22 @@
 
 <div class="container max-w-[1440px] mx-auto">
     <!-- navbar -->
-    <div class="navbar bg-transparent  border-spacing-1 fixed w-full top-0 max-w-[1440px]">
-        <div class="container flex justify-between items-center py-3 w-full max-w-[1440px] mx-auto px-[5%]">
+    <div class="navbar bg-green-500  border-spacing-1 rounded-lg fixed w-full top-0 max-w-[1440px]">
+        <div class="container flex justify-between items-center py-1 w-full max-w-[1440px] mx-auto px-[5%]">
             <div class="left">
-                <h1 class="font-bold text-lg"><a href="./index.jsp">Agricultura Orgânica</a></h1>
+                <h1 class="font-bold text-lg text-white"><a href="./index.jsp">Agricultura Orgânica</a></h1>
 
             </div>
             <!-- in laptops -->
             <div class="right md:flex gap-8 items-center hidden ">
                 <!-- menu -->
-                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-black">
+                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-white">
                     <a href="./index.jsp">Inicio</a></div>
-                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-text-black">
+                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-white">
                     <a href="./table.jsp">Tabela</a></div>
-                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-text-black">
+                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-white">
                     <a href="./graphic.jsp">Gráfico</a></div>
-                <div class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-black">
+                <div class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-white">
                     Relatório</div>
             </div>
             <!-- in mobile phones -->
@@ -58,14 +59,12 @@
         </div>
     </div>
 </div>
-</div>
-
 
 <div class="flex justify-center items-center h-screen bg-white">
     <div id="form" class="block bg-slate-50 p-6 rounded-xl shodow-md  w-90">
         <!--Formulario metodo de envio POST-->
         <form action="index" method="post" accept-charset="UTF-8" >
-            <h2 class="text-green-700 text-3xl font-semibold my-4">Registre-se</h2>
+            <h2 class="text-green-500 text-3xl font-semibold my-4">Registre-se</h2>
             <!-- full name -->
             <div class="flex flex-row">
                 <!--Nome -->

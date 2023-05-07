@@ -5,7 +5,7 @@
 
 .toBack{
     color: white;
-    background-color: black;
+    background-color: #22c55e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@
 
 .toBack1{
     color: rgb(255, 255, 255);
-    background-color: rgb(248, 62, 6);
+    background-color: #22c55e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@
 
 .toBack2{
     color: rgb(255, 255, 255);
-    background-color: rgb(6, 119, 248);
+    background-color: #22c55e;
     display: flex;
     align-items: center;
     justify-content: center;

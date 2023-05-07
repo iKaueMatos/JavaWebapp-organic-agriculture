@@ -33,7 +33,7 @@
                 <h1 class="font-bold text-lg"><a href="./index.jsp">Agricultura Organica</a></h1>
             </div>
             <!-- in laptops -->
-            <div class="right md:flex gap-8 items-center hidden ">
+            <div class="right md:flex gap-8 items-center hidden">
                 <!-- menu -->
                 <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-black">
                     <a href="#inicio">Inicio</a></div>
@@ -181,7 +181,7 @@
     <!-- Time  Developers-->
     <div class="team text-center my-40">
         <h1 class="text-4xl text-black font-bold leading-[55px] lg:text-[42px]" id="Desenvolvedores">Desenvolvedores</h1>
-        <p class="my-8 text-black w-2/3 lg:w-1/3 mx-auto">ConheÃ§a os desenvolvedores dessa aplicaÃ§Ã£o voltada para o seu entendimento sobre a agricultura orgÃ¢nica dentro do Brasil.</p>
+        <p class="my-8 text-black w-2/3 lg:w-1/3 mx-auto">Conheça os desenvolvedores dessa aplicação voltada para o seu entendimento sobre a agricultura orgânica dentro do Brasil.</p>
         <div class="cards flex justify-center gap-10 flex-wrap">
             <div class="card w-[270px] py-8 px-14 text-black text-center">
                 <img class="mx-auto -mb-[15px] rounded h-40" src="./img/Desenvolvedores/ellen1.jpeg" alt="Desenvolvedora ellen">
@@ -201,7 +201,7 @@
             </div>
             <div class="card w-[270px] py-8 px-14 text-black text-center">
                 <img class="mx-auto -mb-[15px] rounded h-40" src="./img/Desenvolvedores/kaue.jpg" alt="Desenvolvedor Kaue de matos">
-                <h2 class="text-[25px] font-medium leading-9 mb-[7px] mt-6">KauÃª Matos</h2>
+                <h2 class="text-[25px] font-medium leading-9 mb-[7px] mt-6">Kauê Matos</h2>
                 <p class="font-normal leading-5 uppercase">Cursando ciencias da computação</p>
                 <div class="icons flex mt-[10px] justify-center gap-2">
                     <a href="https://www.linkedin.com/in/kau%C3%AA-matos-oliveira-a76410213/"><img src="./img/in.png" alt="" class="icon cursor-pointer"></a>

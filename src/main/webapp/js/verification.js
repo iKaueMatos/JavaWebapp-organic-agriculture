@@ -1,5 +1,3 @@
-//Mascara CEP
-
 $(document).on("click", function() {
     var numCep = $("#cep").val();
     var url = "https://viacep.com.br/ws/" + numCep + "/json";
@@ -43,17 +41,6 @@ $(document).ready(function() {
             alert('Todos os seus dados foram enviados com sucesso');
             //Recarrega a pagina!
             location.reload();
-        } else if (date == false) {
-            alert('Ocorreu um erro na hora do envio porfavor preecha novamente!');
-            $(this).addClass('outline-red-950');
         }
     });
-});
-
-//Valida idade
-$(document).ready(function() {
-    if ($('#idade').val() > 2 || $('#idade').val() == null) {
-        alert('Ocorreu um erro na hora do envio porfavor preecha novamente!');
-        $('#idade').addClass('outline-red-950');
-    }
 });

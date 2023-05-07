@@ -32,23 +32,20 @@
 
 <div class="container max-w-[1440px] mx-auto">
     <!-- navbar -->
-    <div class="navbar bg-transparent  border-spacing-1 fixed w-full top-0 max-w-[1440px]">
+    <div class="navbar bg-green-500 rounded-lg border-spacing-1 fixed w-full top-0 max-w-[1440px]">
         <div class="container flex justify-between items-center py-3 w-full max-w-[1440px] mx-auto px-[5%]">
             <div class="left">
-                <h1 class="font-bold text-lg"><a href="./index.html">Agricultura Orgânica</a></h1>
-
+                <h1 class="font-bold text-lg text-white"><a href="./index.jsp">Agricultura Orgânica</a></h1>
             </div>
             <!-- in laptops -->
             <div class="right md:flex gap-8 items-center hidden ">
                 <!-- menu -->
-                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-black">
+                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-white">
                     <a href="./index.jsp">Inicio</a></div>
-                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-text-black">
+                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-white">
                     <a href="./table.jsp">Tabela</a></div>
-                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-text-black">
+                <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-white">
                     <a href="./graphic.jsp">Gráfico</a></div>
-                <div class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-black">
-                    Relatório</div>
             </div>
             <!-- in mobile phones -->
             <div id="mobile-bar" class="block md:hidden z-50 w-8 h-8">
@@ -74,19 +71,19 @@
         <form action="AlteraTrabalhador" method="post" accept-charset="UTF-8" >
             <%
                 Trabalhador pessoa = null;
-                if (request.getAttribute("pessoa") != null){
+                if (request.getAttribute("pessoa") != null) {
                     pessoa = (Trabalhador) request.getAttribute("pessoa");
                 }
             %>
             <div>
                 <input value="<%out.print(pessoa.getId());%>" type="hidden" name="id">
             </div>
-            <h2 class="text-green-700 text-3xl font-semibold my-4">Registre-se</h2>
+            <h2 class="text-green-500 text-3xl font-semibold my-4">Registre-se</h2>
             <!-- full name -->
             <div class="flex flex-row">
                 <!--Nome -->
                 <div id="firstName" class="w-1/2 mr-1">
-                    <label for="fname" class="text-sm">Nome</label><br>
+                    <label for="name" class="text-sm">Nome</label><br>
                     <input value="<%out.print(pessoa.getNome());%>" type="text" name="nome" id="nome" class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-green-600 shadow-sm" >
                 </div>
                 <!-- Sobrenome-->
@@ -143,6 +140,7 @@
         <div class="left">
             2023 Agricultura organica - Todos os direitos reservados.
         </div>
+    </div>
 </footer>
 <!--The end footer-->
 
@@ -150,7 +148,7 @@
 
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script src="./js/jquery.mask.js"></script>
-<script src="./js/Api.js"></script>
+<script src="./js/verification.js"></script>
 
 <script src="./js/main.js"></script>
 </body>
