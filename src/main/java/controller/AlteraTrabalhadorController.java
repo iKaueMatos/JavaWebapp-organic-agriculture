@@ -2,14 +2,12 @@ package controller;
 
 import java.io.IOException;
 import java.net.URLDecoder;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import model.Trabalhador;
 
 @WebServlet("/AlteraTrabalhadorController")
@@ -24,8 +22,7 @@ public class AlteraTrabalhadorController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		this.doPost(request, response);
 	}
-
-
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html; charset=UTF-8");
@@ -49,9 +46,6 @@ public class AlteraTrabalhadorController extends HttpServlet {
         System.out.println("post ok");
         
         //Validacao
-       
-        
-
         Trabalhador trab = new Trabalhador(decodedNome, decodedSobrenome, decodedLocalidade, telefone,
         		idade, cep, uf, decodedLogradouro, decodedBairro);
         trab.setId(id);

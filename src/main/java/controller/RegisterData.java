@@ -15,8 +15,6 @@ import java.net.URLDecoder;
 import model.Trabalhador;
 import dao.Conexao;
 import controller.Validacao;
-
-//import DAO.Conexao;
 import java.io.File;
 import java.io.IOException;
 
@@ -75,10 +73,8 @@ import java.io.IOException;
 	         mensagem = "Erro de conexão com o banco de dados, tente novamente";
 	    	 request.setAttribute("mensagem", mensagem);
 		     dispatcher.forward(request, response);
-	     }
-	     
-	     
-	    }
+	     }  
+	   }
 	}
 	        
 
