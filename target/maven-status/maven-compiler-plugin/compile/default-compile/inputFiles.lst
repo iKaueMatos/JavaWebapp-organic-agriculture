@@ -1,6 +1,8 @@
 /home/kaue/IdeaProjects/Apsjava3/src/main/java/model/Trabalhador.java
 /home/kaue/IdeaProjects/Apsjava3/src/main/java/dao/Conexao.java
+/home/kaue/IdeaProjects/Apsjava3/src/main/java/controller/GerarGraficoController.java
 /home/kaue/IdeaProjects/Apsjava3/src/main/java/controller/RegisterData.java
+/home/kaue/IdeaProjects/Apsjava3/src/main/java/controller/Grafico.java
 /home/kaue/IdeaProjects/Apsjava3/src/main/java/controller/BuscarTrabalhadorController.java
 /home/kaue/IdeaProjects/Apsjava3/src/main/java/controller/Validacao.java
 /home/kaue/IdeaProjects/Apsjava3/src/main/java/controller/ModificarTrabalhadoresController.java
