@@ -35,5 +35,23 @@ Se você encontrar problemas ao implantar ou executar este projeto, tente o segu
 2.Verifique se todas as configurações estão de acordo com os manuais que  foram disponibilizados.
 
 
+# Linguagens e bibliotecas utilizadas
 
+1.Java: linguagem de programação orientada a objetos amplamente utilizada no desenvolvimento de aplicativos para desktop, web e mobile.
+
+2.Tomcat: servidor web utilizado para hospedar aplicativos web Java. Ele suporta a especificação Java Servlet e a API JavaServer Pages (JSP).
+
+3.Maven: ferramenta de gerenciamento de projetos que ajuda a automatizar a construção, o teste e a implantação de aplicativos Java.
+
+4.Tailwind: biblioteca de CSS que fornece classes pré-definidas para estilização de componentes HTML. Ela permite criar estilos de forma rápida e fácil, sem a necessidade de escrever CSS personalizado.
+
+5.Bootstrap: outra biblioteca de CSS popular para criação de interfaces de usuário responsivas. Ele fornece um conjunto de componentes, como menus de navegação, formulários e botões, que podem ser facilmente personalizados.
+
+6.HTML: linguagem de marcação utilizada para criar a estrutura de uma página web.
+
+7.CSS: linguagem de estilos utilizada para definir o visual de uma página web.
+
+8.JavaScript: linguagem de programação utilizada principalmente para adicionar interatividade a páginas web.
+
+9.jQuery: biblioteca de JavaScript que simplifica a manipulação do DOM (Document Object Model) e a interação com APIs web.
 
