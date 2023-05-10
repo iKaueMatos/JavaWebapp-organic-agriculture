@@ -55,3 +55,7 @@ Se você encontrar problemas ao implantar ou executar este projeto, tente o segu
 
 9.jQuery: biblioteca de JavaScript que simplifica a manipulação do DOM (Document Object Model) e a interação com APIs web.
 
+10.Azure: é uma plataforma de computação em nuvem oferecida pela Microsoft que permite a criação, implantação e gerenciamento de aplicativos e serviços em nuvem. O Azure oferece uma ampla gama de serviços de nuvem, incluindo computação, armazenamento, banco de dados, análise, rede e segurança. Ele é escalável, seguro e altamente disponível, permitindo que as empresas cresçam e se adaptem às mudanças do mercado com facilidade.
+
+11.MySQL:É um sistema de gerenciamento de banco de dados relacional de código aberto. Ele é amplamente utilizado em aplicativos web para armazenar e gerenciar dados. MySQL é rápido, confiável e escalável, e suporta muitas linguagens de programação, incluindo PHP, Python, Java e C++. Ele também oferece recursos avançados de segurança e replicação, tornando-o uma escolha popular para aplicativos críticos.
+
