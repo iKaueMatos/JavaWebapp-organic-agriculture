@@ -3,6 +3,9 @@
 
 Este é um projeto webapp Java que utiliza o Apache Tomcat  e é implantado no Azure utilizando o banco de dados MYSQL. O objetivo desse projeto e ilustrar uma plataforma de vagas para pessoas que moram em lugares de dificil acesso de oportunidades de emprego.
 
+Link da aplicação:https://webappjava1.azurewebsites.net/Apsjava3/index.jsp
+
+
 # Requisitos de Hardware
 Processador de 64 bits com 2 GHz ou mais rápido
 
