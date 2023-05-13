@@ -8,7 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <title>Formulário para cadastro - Agricutura organica</title>
     <!-- style -->

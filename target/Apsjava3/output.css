@@ -47,7 +47,7 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -88,7 +88,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -814,7 +814,7 @@ video {
 
 .gap-x-7{
   -moz-column-gap: 1.75rem;
-       column-gap: 1.75rem;
+  column-gap: 1.75rem;
 }
 
 .gap-y-10{
@@ -1119,9 +1119,9 @@ video {
 
 .card {
   background: linear-gradient(
-    268.12deg,
-    rgba(254, 254, 255, 0.032) -11.04%,
-    rgba(255, 255, 255, 0.018) 104.89%
+          268.12deg,
+          rgba(254, 254, 255, 0.032) -11.04%,
+          rgba(255, 255, 255, 0.018) 104.89%
   );
   box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
   border-radius: 34px;
@@ -1131,9 +1131,9 @@ video {
 
 .contact .container {
   background: linear-gradient(
-    180deg,
-    rgba(254, 254, 255, 0.0145) 0%,
-    rgba(255, 255, 255, 0.02) 100%
+          180deg,
+          rgba(254, 254, 255, 0.0145) 0%,
+          rgba(255, 255, 255, 0.02) 100%
   );
   box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
   border-radius: 34px;
@@ -1141,9 +1141,9 @@ video {
 
 .input {
   background: linear-gradient(
-    180deg,
-    rgba(254, 254, 255, 0.0348) 0%,
-    rgba(255, 255, 255, 0.048) 100%
+          180deg,
+          rgba(254, 254, 255, 0.0348) 0%,
+          rgba(255, 255, 255, 0.048) 100%
   );
   box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
   border-radius: 70px;

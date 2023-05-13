@@ -4,6 +4,7 @@
 
 <web-app>
   <display-name>Aps</display-name>
+
   <servlet>
     <servlet-name>register</servlet-name>
     <servlet-class>controller.RegisterData</servlet-class>
