@@ -5,9 +5,10 @@
   Time: 12:00
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.util.List" %>
 <%@ page import="model.Trabalhador" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -29,8 +30,12 @@
 
 
 <a class="toBack" href="./index.jsp">Voltar para pagina principal</a>
-<a class="toBack1" href="./index.jsp">Ver grafico</a>
+<form action="GeraGrafico" method="post" accept-charset="UTF-8" >
+  <button type="submit" class="toBack1">Grafico</button>
+</form>
+<a class="toBack1" href="./graphic.jsp">Ver grafico</a>
 <a class="toBack2" href="./index.jsp">Gerar relatório</a>
+
 
 <div class="container mt-6">
   <form action="BuscarTrabalhador" method="post" accept-charset="UTF-8" >
@@ -81,7 +86,7 @@
           <td><%out.print(pessoa.getUf()); %></td>
           <td><%out.print(pessoa.getBairro()); %></td>
           <td><%out.print(pessoa.getLogradouro()); %></td>
-          <td>
+          <td class="mt-2">
             <button type="submit" name="editar" id="btn" class="bg-green-500 w-20 h-10 cursor-pointer text-white rounded-md hover:bg-green-600 hover:outline outline-2 outline-green-600 outline-offset-2 text-sm">Editar</button>
             <button type="submit" name="apagar" id="btn" class="bg-green-500 w-20 h-10 cursor-pointer text-white rounded-md hover:bg-green-600 hover:outline outline-2 outline-green-600 outline-offset-2 text-sm">Excluir</button>
           </td>
