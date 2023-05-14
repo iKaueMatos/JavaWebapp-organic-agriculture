@@ -37,7 +37,9 @@ public class Trabalhador extends Conexao {
 		setLogradouro(logradouro);
 		setBairro(bairro);
 	}
-	
+
+	//Todos os atributos que são inseridos dentro do banco de dados e retornados
+
 	public String getNome() {
 		return nome;
 	}

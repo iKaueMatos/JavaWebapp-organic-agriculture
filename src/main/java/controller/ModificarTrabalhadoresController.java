@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import model.Trabalhador;
 
 /**
- * Servlet implementation class ModificarTrabalhadoresController
+ * Servlet Rota ModificarTrabalhadoresController
  */
 @WebServlet("/ModificarTrabalhadoresController")
 public class ModificarTrabalhadoresController extends HttpServlet {
@@ -23,7 +23,6 @@ public class ModificarTrabalhadoresController extends HttpServlet {
      */
     public ModificarTrabalhadoresController() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -33,6 +32,7 @@ public class ModificarTrabalhadoresController extends HttpServlet {
 		this.doPost(request, response);
 	}
 
+	//Requisição via POST enviada para o banco de dados onde executa a query para Deletar/Editar um usuario pelo ID
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
 	     response.setContentType("text/html; charset=UTF-8");
@@ -53,7 +53,5 @@ public class ModificarTrabalhadoresController extends HttpServlet {
 			 request.setAttribute("pessoa", pessoa);
 			 dispacher.forward(request, response);
 		 }
-	     
 	}
-
 }

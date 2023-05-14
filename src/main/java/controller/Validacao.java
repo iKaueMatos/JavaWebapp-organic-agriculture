@@ -3,7 +3,8 @@ package controller;
 import java.io.IOException;
 
 public class Validacao {
-	
+
+	//Validação da entrada de dados que recebida pelo POST,Onde ficara resposavel por fazer todo o tratamento dos dados
 	public static String validaString(String entrada) {
 		
 		entrada = entrada.replaceAll("\\s+", ""); // Retira os espaços da entrada
@@ -15,7 +16,7 @@ public class Validacao {
 		return entrada; 
 	}
 	
-	
+	//Metodo de validação dos numeros que serão inseridos dentro do banco de dados
 	public static String validaNumerico(String numerico){
 		
 		String n1 = numerico;
