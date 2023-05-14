@@ -8,7 +8,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>AGO - Agricutura orgânica</title>
+    <title>AGO - Formulário de edição de dados</title>
     <!-- style -->
 
     <link rel="stylesheet" href="./dist/output.css">
