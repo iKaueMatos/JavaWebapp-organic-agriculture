@@ -18,7 +18,7 @@
           rel="stylesheet"
           integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
           crossorigin="anonymous">
-  <title>Table - Agricultura orgânica</title>
+  <title>Tabela - Agricultura orgânica</title>
 </head>
 <body>
 
@@ -74,7 +74,7 @@
           <td><%out.print(pessoa.getUf()); %></td>
           <td><%out.print(pessoa.getBairro()); %></td>
           <td><%out.print(pessoa.getLogradouro()); %></td>
-          <td class="mt-2">
+          <td class="ml-2 d-flex">
             <button type="submit" name="editar" id="btn" class="bg-green-500 w-20 h-10 cursor-pointer text-white rounded-md hover:bg-green-600 hover:outline outline-2 outline-green-600 outline-offset-2 text-sm">Editar</button>
             <button type="submit" name="apagar" id="btn" class="bg-green-500 w-20 h-10 cursor-pointer text-white rounded-md hover:bg-green-600 hover:outline outline-2 outline-green-600 outline-offset-2 text-sm">Excluir</button>
           </td>
