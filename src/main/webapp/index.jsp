@@ -1,9 +1,9 @@
-
+                                                                                                                                                                                        
     <%@ page contentType="text/html;charset=UTF-8" language="java" %>
     <!DOCTYPE html>
     <html lang="pt-br">
 
-    <head>
+    <head>  
         <title>AGO - Agricutura orgânica</title>
         <!-- style -->
         <link rel="stylesheet" href="./dist/output.css">
@@ -16,7 +16,7 @@
 <body class="bg-white  min-h-screen">
 <!-- body -->
 <div class="container max-w-[1440px] mx-auto">
-    <!-- navbar -->
+    <!-- navbar -->                                                                                                                                                                                                                   
     <div class="navbar bg-white  border-spacing-1 fixed w-full top-0 max-w-[1440px]">
         <div class="container flex justify-between items-center py-3 w-full max-w-[1440px] mx-auto px-[5%]">
             <div class="left">
@@ -32,7 +32,7 @@
                 <div class="item text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-text-black">
                     <a href="#Contato">Contato</a></div>
                 <!-- menu-btn -->
-                <div class="item btn py-3 px-6 text-sm font-medium leading-3 rounded-md text-black cursor-pointer  duration-600 hover:text-green-600"> <a href="./form.jsp">Cadastra-se</a>
+                <div class="item btn py-3 px-6 text-sm font-medium leading-3 rounded-md text-black cursor-pointer  duration-600 hover:text-green-600"> <a href="./form.jsp">Cadastre-se</a>
                 </div>
             </div>
             <!-- in mobile phones -->
@@ -45,7 +45,7 @@
                 <div class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-white">
                     Inicio</div>
                 <div class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-[#fff]">
-                  <a href="#Desenvolvedores">  Desenvolvedores</a></div>
+                  <a href="#Desenvolvedores">Desenvolvedores</a></div>
                 <div class="item mx-auto text-center py-6 text-sm font-medium leading-3 cursor-pointer hover:text-green-600 duration-500 text-[#fff]">
                     <a href="#Contato">Contato</a></div>
                 <!-- menu-btn -->
@@ -59,19 +59,19 @@
         <div class="left col-span-1 text-black">
             <h1 class="h1 mb-7">O que é a agricultura orgânica?</h1>
             <p class=" mb-8 indent-8 text-justify">A agricultura orgânica é um sistema de produção agrícola que se baseia em práticas 
-                    sustentáveis e que valoriza a conservação do solo, da água, da biodiversidade e da saúde dos seres humanos e dos animais. <br> O objetivo da agricultura orgânica é produzir alimentos saudáveis e nutritivos, sem o uso de agrotóxicos, fertilizantes sintéticos e organismos geneticamente modificados. <br> Na agricultura orgânica, a fertilidade do solo é mantida por meio de técnicas como a adição de compostagem, rotação de culturas e uso de adubos naturais, como esterco e restos de plantas. O controle de pragas e doenças é realizado de forma integrada, por meio do uso de métodos preventivos e de controle biológico. <br> A agricultura orgânica é regulamentada por normas e certificações específicas, que visam garantir que os produtos sejam produzidos de acordo com os princípios da sustentabilidade e da saúde. Os produtos orgânicos são identificados por um selo de certificação, que garante que eles foram produzidos seguindo essas normas.</p>
+                    sustentáveis e que valoriza a conservação do solo, da água, da biodiversidade e da saúde dos seres humanos e dos animais. O objetivo da agricultura orgânica é produzir alimentos saudáveis e nutritivos, sem o uso de agrotóxicos, fertilizantes sintéticos e organismos geneticamente modificados. Na agricultura orgânica, a fertilidade do solo é mantida por meio de técnicas como a adição de compostagem, rotação de culturas e uso de adubos naturais, como esterco e restos de plantas. O controle de pragas e doenças é realizado de forma integrada, por meio do uso de métodos preventivos e de controle biológico. A agricultura orgânica é regulamentada por normas e certificações específicas, que visam garantir que os produtos sejam produzidos de acordo com os princípios da sustentabilidade e da saúde. Os produtos orgânicos são identificados por um selo de certificação, que garante que eles foram produzidos seguindo essas normas.</p>
             <div class="btn__group flex gap-5">
                 <button class="join px-10 py-5 rounded-md text-base font-medium">
-                    <a hre="">Saiba mais</a>
+                    <a href="https://youtu.be/ze8b2d8HcI4">Saiba mais</a>
                 </button>
                 <div class="watch flex items-center gap-2 cursor-pointer text-base font-medium">
-                    <a href="https://youtu.be/ze8b2d8HcI4">Video sobre agricultura orgânica
+                    <a href="https://youtu.be/ze8b2d8HcI4">Vídeo sobre agricultura orgânica
 </a>
                 </div>
             </div>
         </div>
         <div class="right col-span-1">
-            <img src="./img/Agricultura.png" alt="Agricultura orgÃ¢nica">
+            <img src="./img/Agricultura.png" alt="Agricultura orgânica">
         </div>
     </div>
     <!-- Um pouco sobre a agricultura orgânica | Cards -->
@@ -121,7 +121,7 @@
             <div class="card w-[370px] px-6 py-9">
                 <img class="pb-5 mx-auto" src="./img/AgriculturaImg/fazendeiros.webp" alt="Lei agricultura orgÃ¢nica">
                 <h2 class="text-2xl font-medium pb-4">LEI 10.831.2003 Agricultura orgânica</h2>
-                <p class="text-base text-justify  pb-6 indent-8">Ela define a agricultura orgânica como um sistema de produção que busca preservar a saúde do solo, das plantas, dos animais e dos seres humanos, promovendo a biodiversidade e o equilíbrio ecológico. entretando um dos pontos que a lei 10.831.2003 pressupõe A proibição do uso de agrotóxicos, adubos químicos e organismos geneticamente modificados (OGMs) na produção orgânica.
+                <p class="text-base text-justify  pb-6 indent-8">Ela define a agricultura orgânica como um sistema de produção que busca preservar a saúde do solo, das plantas, dos animais e dos seres humanos, promovendo a biodiversidade e o equilíbrio ecológico. entretando um dos pontos que a lei 10.831.2003 pressupõe é a proibição do uso de agrotóxicos, adubos químicos e organismos geneticamente modificados (OGMs) na produção orgânica.
                 </p>
                 <button><a class="no-underline text-black hover:underline hover:text-green-500 duration-500"
                            href="#">Veja mais</a></button>
@@ -137,19 +137,19 @@
             <h2 class="font-bold text-4xl  leading-[52px] lg:text-[42px]">O impacto da agricultura orgânica no Brasil</h2>
             <p class="font-normal my-8 text-base text-justify indent-8">A agricultura orgânica no Brasil tem um impacto positivo em diversos aspectos, tanto ambientais quanto sociais e econômicos. Algumas das principais vantagens da agricultura orgânica no Brasil incluem:
                 <br>
-                <b>1.</b> Redução do uso de agrotóxicos: A agricultura orgânica não utiliza agrotóxicos sintéticos, o que reduz o impacto negativo desses produtos na saúde das pessoas e no meio ambiente.<br>
-                <b>2.</b>Preservação da biodiversidade: A agricultura orgânica valoriza a conservação da biodiversidade, por meio da manutenção de áreas de preservação permanente, da rotação de culturas e do uso de adubos orgânicos. <br>
-                <b>3.</b>  Produção de alimentos mais saudáveis: Os alimentos orgânicos são produzidos sem o uso de agrotóxicos, o que os torna mais saudáveis e nutritivos.<br>
-                <b>4.</b> Estímulo à agricultura familiar: A agricultura orgânica é uma alternativa viável para a agricultura familiar, pois permite a produção de alimentos de qualidade sem a necessidade de grandes investimentos em insumos.<br>
-                <b>5.</b>Fortalecimento da economia local: A produção de alimentos orgânicos geralmente é voltada para o mercado local, o que fortalece a economia da região e incentiva o comércio justo.<br>No entanto, apesar dos benefícios da agricultura orgânica, ainda há desafios a serem enfrentados no Brasil, como a falta de incentivos governamentais e a dificuldade de acesso a crédito para os produtores orgânicos. Além disso, é importante garantir que os produtos orgânicos sejam produzidos de acordo com as normas e certificações específicas, para que possam ser
+                <b>1.Redução do uso de agrotóxicos:</b>  A agricultura orgânica não utiliza agrotóxicos sintéticos, o que reduz o impacto negativo desses produtos na saúde das pessoas e no meio ambiente.<br>
+                <b>2.Preservação da biodiversidade:</b> A agricultura orgânica valoriza a conservação da biodiversidade, por meio da manutenção de áreas de preservação permanente, da rotação de culturas e do uso de adubos orgânicos. <br>
+                <b>3.Produção de alimentos mais saudáveis:</b>  Os alimentos orgânicos são produzidos sem o uso de agrotóxicos, o que os torna mais saudáveis e nutritivos.<br>
+                <b>4.Estímulo à agricultura familiar:</b>  A agricultura orgânica é uma alternativa viável para a agricultura familiar, pois permite a produção de alimentos de qualidade sem a necessidade de grandes investimentos em insumos externos.<br>
+                <b>5.Fortalecimento da economia local:</b> A produção de alimentos orgânicos geralmente é voltada para o mercado local, o que fortalece a economia da região e incentiva o comércio justo.<br>No entanto, apesar dos benefícios da agricultura orgânica, ainda há desafios a serem enfrentados no Brasil, como a falta de incentivos governamentais e a dificuldade de acesso a crédito para os produtores orgânicos. Além disso, é importante garantir que os produtos orgânicos sejam produzidos de acordo com as normas e certificações específicas, para que possam ser
                 comercializados de forma confiável e segura. </p>
-            <button class="btn py-2 px-[14px] rounded">Saiba mais</button>
+            <button class="btn py-2 px-[14px] rounded">Saiba mais</button>                                             
         </div>
     </div>
     <!-- Descrição__parte__2 -->
     <div class="description2 grid grid-cols-1 my-40 items-center lg:grid-cols-2 justify-evenly gap-10 px-[5%]">
         <div class="left col-span-1 text-black">
-            <h2 class="font-bold text-4xl  leading-[52px] lg:text-[42px]">Agricultura organica VS convencional</h2>
+            <h2 class="font-bold text-4xl  leading-[52px] lg:text-[42px]">Agricultura orgânica VS convencional</h2>
             <p class="font-normal my-8 text-base text-justify indent-8">A agricultura orgânica e a convencional são dois sistemas de produção agrícola com diferenças significativas em termos de práticas e impactos.
 
                 Na agricultura convencional, os produtores utilizam agrotóxicos, fertilizantes sintéticos e sementes geneticamente modificadas para aumentar a produtividade das culturas. Além disso, as monoculturas são comuns nesse sistema, o que pode levar à perda de biodiversidade e à degradação do solo. A agricultura convencional também pode ter impactos negativos na saúde das pessoas e dos animais, devido ao uso excessivo de agrotóxicos.
@@ -163,26 +163,26 @@
         </div>
         <div class="right col-span-1 justify-self-center">
             <img src="./img/Agricultor-.png" alt="">
-        </div>
+        </div>                                                                                                                                  
     </div>
 
     <!-- Desenvolvedores da aplicação -->
     <div class="team text-center my-40">
         <h1 class="text-4xl text-black font-bold leading-[55px] lg:text-[42px]" id="Desenvolvedores">Desenvolvedores</h1>
-        <p class="my-8 text-black w-2/3 lg:w-1/3 mx-auto">Conheça os desenvolvedores dessa aplicação voltada para o seu entendimento sobre a agricultura orgânica dentro do Brasil.</p>
+        <p class="my-8 text-black w-2/3 lg:w-1/3 mx-auto">Conheça os desenvolvedores dessa aplicação.</p>
         <div class="cards flex justify-center gap-10 flex-wrap">
             <div class="card w-[270px] py-8 px-14 text-black text-center">
-                <img class="mx-auto -mb-[15px] rounded h-40" src="./img/Desenvolvedores/ellen1.jpeg" alt="Desenvolvedora ellen">
+                <img class="mx-auto -mb-[15px] rounded h-40" src="./img/Desenvolvedores/ellen1.jpeg" alt="Desenvolvedora Ellen">
                 <h2 class="text-[25px] font-medium leading-9 mb-[7px] mt-6">Ellen Fontes</h2>
-                <p class="font-normal leading-5 uppercase">Cursando ciencias da computação</p>
+                <p class="font-normal leading-5 uppercase">Cursando Ciência da computação</p>
                 <div class="icons flex mt-[10px] justify-center gap-2">
                     <a href="https://www.linkedin.com/in/ellen-fontes-617b21205/"><img src="./img/in.png" alt="" class="icon cursor-pointer"></a>
                 </div>
             </div>
             <div class="card w-[270px] py-8 px-14 text-black text-center">
-                <img class="mx-auto -mb-[15px] rounded h-40 w-50" src="./img/Desenvolvedores/igor.jpeg" alt="Desenvolvedor igor">
+                <img class="mx-auto -mb-[15px] rounded h-40 w-50" src="./img/Desenvolvedores/igor.jpeg" alt="Desenvolvedor Igor">
                 <h2 class="text-[25px] font-medium leading-9 mb-[7px] mt-6">Igor Augusto</h2>
-                <p class="font-normal leading-5 uppercase">Cursando ciencias da computação</p>
+                <p class="font-normal leading-5 uppercase">Cursando Ciência da Computação</p>
                 <div class="icons flex mt-[10px] justify-center gap-2">
                     <a href="https://www.linkedin.com/in/igorbrz/"><img src="./img/in.png" alt="" class="icon cursor-pointer"></a>
                 </div>
@@ -190,7 +190,7 @@
             <div class="card w-[270px] py-8 px-14 text-black text-center">
                 <img class="mx-auto -mb-[15px] rounded h-40" src="./img/Desenvolvedores/kaue.jpg" alt="Desenvolvedor Kaue de matos">
                 <h2 class="text-[25px] font-medium leading-9 mb-[7px] mt-6">Kauê Matos</h2>
-                <p class="font-normal leading-5 uppercase">Cursando ciencias da computação</p>
+                <p class="font-normal leading-5 uppercase">Cursando Ciência da Computação</p>
                 <div class="icons flex mt-[10px] justify-center gap-2">
                     <a href="https://www.linkedin.com/in/kau%C3%AA-matos-oliveira-a76410213/"><img src="./img/in.png" alt="" class="icon cursor-pointer"></a>
                 </div>
@@ -198,7 +198,7 @@
             <div class="card w-[270px] py-8 px-14 text-black text-center">
                 <img class="mx-auto -mb-[15px] rounded h-40 w-50" src="./img/Desenvolvedores/gustavo.jpeg" alt="Desenvolvedor Gustavo pacheco">
                 <h2 class="text-[25px] font-medium leading-9 mb-[7px] mt-6">Gustavo Pacheco</h2>
-                <p class="font-normal leading-5 uppercase">Cursando ciencias da computação</p>
+                <p class="font-normal leading-5 uppercase">Cursando Ciência da Computação</p>
                 <div class="icons flex mt-[10px] justify-center gap-2">
                     <a href="https://www.linkedin.com/in/gusta9s/"><img src="./img/in.png" alt="" class="icon cursor-pointer"></a>
                 </div>
@@ -206,7 +206,7 @@
             <div class="card w-[270px] py-8 px-14 text-black text-center">
                 <img class="mx-auto -mb-[15px] rounded" src="./img/Desenvolvedores/pedro.jpeg" alt="Desenvolvedor Pedro">
                 <h2 class="text-[25px] font-medium leading-9 mb-[7px] mt-6">Pedro Prado</h2>
-                <p class="font-normal leading-5 uppercase">Cursando ciencias da computação </p>
+                <p class="font-normal leading-5 uppercase">Cursando Ciência da Computação</p>
                 <div class="icons flex mt-[10px] justify-center gap-2">
                     <a href="https://www.linkedin.com/in/phpprado/"><img src="./img/in.png" alt="" class="icon cursor-pointer"></a>
                 </div>
@@ -217,8 +217,8 @@
     <div class="contact text-center my-10 mx-[5%]" id="Contato">
         <div class="container px-[5%] mx-auto flex flex-col max-w-[900px] w-full justify-center items-center text-black">
             <form method="Post" action="mailto:programmerdeveloper@gmail.com">
-                <h1 class="lg:text-[42px] text-3xl font-bold mt-[50px] mb-3">Increva-se para receber mais informações</h1>
-                <p class="text-base text-center">Fique por dentro das nossas novidades academicas</p>
+                <h1 class="lg:text-[42px] text-3xl font-bold mt-[50px] mb-3">Inscreva-se para receber mais informações</h1>
+                <p class="text-base text-center">Fique por dentro das nossas novidades acadêmicas</p>
                 <div class="input mt-[30px] flex justify-between mb-10 max-w-[860px] w-[100%] p-[10px]">
                     <input class="border-none py-[15px] px-[34px] bg-[#0000] outline-none" type="text" placeholder="Digite seu Email">
                     <button class="btn flex items-center gap-3 py-[15px] pl-[26px] pr-[49px] rounded-[70px] opacity-9">
@@ -234,7 +234,7 @@
     <div class="line w-full h-[1px] absolute left-0 opacity-20 md-[6px] bg-[#000]"></div>
     <div class="bottom flex justify-center gap-5 md:justify-between flex-wrap px-[5%] py-[26px]">
         <div class="left">
-            © 2023 Agricultura organica. - Todos os direitos reservados.
+            © 2023 Agricultura orgânica. - Todos os direitos reservados.
         </div>
     </div>
 </footer>
