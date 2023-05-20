@@ -50,22 +50,23 @@
                     <a href="#Contato">Contato</a></div>
                 <!-- menu-btn -->
                 <div class="item bg-green-600 mx-auto text-center w-40 btn py-3 px-6 text-sm font-medium leading-3 rounded-md text-black cursor-pointer  duration-500 hover:text-green-600">
-                    <a href="./form.jsp">Cadastra-se</a></div>
+                    <a href="./form.jsp">Cadastre-se</a></div>
             </div>
         </div>
     </div>
     <!-- Home section -->
     <div class="container px-[5%] my-40 grid lg:grid-cols-2 grid-cols-1 justify-between items-center" id="inicio">
         <div class="left col-span-1 text-black">
-            <h1 class="h1 mb-7">O que é a agricultura orgânica</h1>
-            <p class=" mb-8 indent-8 text-justify">A agricultura orgânica é um sistema de produção agrícola que se baseia em práticas
-                sustentáveis e que valoriza a conservação do solo, da água, da biodiversidade e da saúde dos seres humanos e dos animais. O objetivo da agricultura orgânica é produzir alimentos saudáveis e nutritivos, sem o uso de agrotóxicos, fertilizantes sintéticos e organismos geneticamente modificados. Na agricultura orgânica, a fertilidade do solo é mantida por meio de técnicas como a adição de compostagem, rotação de culturas e uso de adubos naturais, como esterco e restos de plantas. O controle de pragas e doenças é realizado de forma integrada, por meio do uso de métodos preventivos e de controle biológico. A agricultura orgânica é regulamentada por normas e certificações específicas, que visam garantir que os produtos sejam produzidos de acordo com os princípios da sustentabilidade e da saúde. Os produtos orgânicos são identificados por um selo de certificação, que garante que eles foram produzidos seguindo essas normas.</p>
+            <h1 class="h1 mb-7">O que é a agricultura orgânica?</h1>
+            <p class=" mb-8 indent-8 text-justify">A agricultura orgânica é um sistema de produção agrícola que se baseia em práticas 
+                    sustentáveis e que valoriza a conservação do solo, da água, da biodiversidade e da saúde dos seres humanos e dos animais. <br> O objetivo da agricultura orgânica é produzir alimentos saudáveis e nutritivos, sem o uso de agrotóxicos, fertilizantes sintéticos e organismos geneticamente modificados. <br> Na agricultura orgânica, a fertilidade do solo é mantida por meio de técnicas como a adição de compostagem, rotação de culturas e uso de adubos naturais, como esterco e restos de plantas. O controle de pragas e doenças é realizado de forma integrada, por meio do uso de métodos preventivos e de controle biológico. <br> A agricultura orgânica é regulamentada por normas e certificações específicas, que visam garantir que os produtos sejam produzidos de acordo com os princípios da sustentabilidade e da saúde. Os produtos orgânicos são identificados por um selo de certificação, que garante que eles foram produzidos seguindo essas normas.</p>
             <div class="btn__group flex gap-5">
                 <button class="join px-10 py-5 rounded-md text-base font-medium">
-                    <a hre="">Saiba mas</a>
+                    <a hre="">Saiba mais</a>
                 </button>
                 <div class="watch flex items-center gap-2 cursor-pointer text-base font-medium">
-                    <a href="https://youtu.be/ze8b2d8HcI4">video</a>
+                    <a href="https://youtu.be/ze8b2d8HcI4">Video sobre agricultura orgânica
+</a>
                 </div>
             </div>
         </div>
@@ -78,21 +79,21 @@
         <h1 class="text-4xl text-black font-bold text-center md:text-[42px]">
             Saiba mais sobre agricultura orgânica
         </h1>
-        <p class="text-black text-center mt-[30px] mb-[40px] w-3/4 mx-auto">Aqui você ira encontrar alguns pontos sobre a agricultura orgânica e que são bastante interessantes para o seu entendimento</p>
+        <p class="text-black text-center mt-[30px] mb-[40px] w-3/4 mx-auto">Aqui você encontrará informações complementares e curiosidades sobre a agricultura orgânica</p>
         <div class="cards flex justify-center gap-x-7 gap-y-10 flex-wrap text-black text-center">
             <div class="card w-[370px] px-6 py-9">
                 <img class="pb-5 mx-auto" src="./img/AgriculturaImg/agricultores.webp" alt="Pontos positivos da Agricultura orgÃ¢nica">
                 <h2 class="text-2xl font-medium pb-4">Pontos positivos da Agricultura orgânica</h2>
-                <p class="text-base text-justify pb-6 indent-8">Um dos maiores pontos positivos da agricultura orgânica e a produção de alimentos mais saudáveis: Ao evitar o uso de agrotóxicos e fertilizantes químicos, os alimentos orgânicos são mais saudáveis e seguros para o consumo humano.</p>
+                <p class="text-base text-justify pb-6 indent-8">Um dos maiores pontos positivos da agricultura orgânica é a produção de alimentos mais saudáveis: Ao evitar o uso de agrotóxicos e fertilizantes químicos, os alimentos orgânicos se tornam mais saudáveis e seguros para o consumo humano.</p>
                 <button><a class="no-underline text-black hover:underline hover:text-green-500 duration-500"
-                           href="#">veja mais</a></button>
+                           href="#">Veja mais</a></button>
             </div>
             <div class="card w-[370px] px-6 py-9">
                 <img class="pb-5 mx-auto" src="./img/AgriculturaImg/ProdutosOganicos2.png" alt="Agricultura organica personagem">
                 <h2 class="text-xl font-medium pb-6">A agricultura orgânica se beficia do uso de tecnologias</h2>
                 <p class="text-base text-justify pb-6 indent-8">A agricultura orgânica se beneficia do uso de tecnologias, como monitoramento de cultivos, irrigação eficiente, manejo integrado de pragas, melhoria da fertilidade do solo, rastreabilidade e certificação, e comercialização e marketing. Essas tecnologias auxiliam na eficiência, produtividade e sustentabilidade da agricultura orgânica.</p>
                 <button><a class="no-underline text-black hover:underline hover:text-green-500 duration-500"
-                           href="#">veja mais</a></button>
+                           href="#">Veja mais</a></button>
             </div>
             <div class="card w-[370px] px-6 py-10">
                 <img class="pb-5 mx-auto" src="./img/AgriculturaImg/ProdutosOrganicos.png" alt="Alimentos organicos e seus beneficios">
@@ -107,15 +108,15 @@
                 <p class="text-base text-justify  pb-6 indent-8">Não podemos afirmar que todos os produtos convencionais são prejudiciais para os seres humanos mais a grande maioria dos produtos são processados e contém aditivos quimicos,como conservantes, corante e flavorizantes artificiais.
                 </p>
                 <button><a class="no-underline text-black hover:underline hover:text-green-500 duration-500"
-                           href="#">veja mais</a></button>
+                           href="#">Veja mais</a></button>
             </div>
             <div class="card w-[370px] px-6 py-9">
                 <img class="pb-5 mx-auto" src="./img/AgriculturaImg/AgricultorFazenda.webp" alt="Qual e melhor para voce alimento organico ou alimento convecional">
                 <h2 class="text-2xl font-medium pb-4">Alimentos orgânicos?</h2>
-                <p class="text-base text-justify pb-6 indent-8">Os alimentos orgânicos são cultivados sem o uso de produtos químicos sintéticos, como pesticidas, herbicidas e fertilizantes, e são geralmente produzidos com práticas mais sustentáveis e respeitosas ao meio ambiente. Eles também podem conter uma quantidade maior de nutrientes e menos aditivos químicos.
+                <p class="text-base text-justify pb-6 indent-8">Os alimentos orgânicos são cultivados sem o uso de produtos químicos sintéticos, como pesticidas, herbicidas e fertilizantes, e são geralmente produzidos com práticas mais sustentáveis e respeitosas ao meio ambiente. Eles também podem conter uma quantidade maior de nutrientes e menor quantidade de aditivos químicos.
                 </p>
                 <button><a class="no-underline text-black hover:underline hover:text-green-500 duration-500"
-                           href="#">veja mais</a></button>
+                           href="#">Veja mais</a></button>
             </div>
             <div class="card w-[370px] px-6 py-9">
                 <img class="pb-5 mx-auto" src="./img/AgriculturaImg/fazendeiros.webp" alt="Lei agricultura orgÃ¢nica">
@@ -123,7 +124,7 @@
                 <p class="text-base text-justify  pb-6 indent-8">Ela define a agricultura orgânica como um sistema de produção que busca preservar a saúde do solo, das plantas, dos animais e dos seres humanos, promovendo a biodiversidade e o equilíbrio ecológico. entretando um dos pontos que a lei 10.831.2003 pressupõe A proibição do uso de agrotóxicos, adubos químicos e organismos geneticamente modificados (OGMs) na produção orgânica.
                 </p>
                 <button><a class="no-underline text-black hover:underline hover:text-green-500 duration-500"
-                           href="#">veja mais</a></button>
+                           href="#">Veja mais</a></button>
             </div>
         </div>
     </div>
