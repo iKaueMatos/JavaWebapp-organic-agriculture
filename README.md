@@ -37,6 +37,7 @@ Verifique se o projeto está funcionando corretamente em http://localhost:8080.
 Se você encontrar problemas ao implantar ou executar este projeto, tente o seguinte:
 
 1.Verifique se todas as ferramentas necessárias foram instaladas corretamente.
+
 2.Verifique se todas as configurações estão de acordo com os manuais que  foram disponibilizados.
 
 
