@@ -23,7 +23,7 @@ Processador de 64 bits com 2 GHz ou mais rápido
 
 🌟 Apache Tomcat versão 8.5 ou superior
 
-🌟 IDE:ItelliJ IDEA e Eclipse
+🌟 IDE:ItelliJ IDEA
 
 Para configurar este projeto, siga as etapas abaixo:
 
