@@ -35,7 +35,6 @@
                 <div class="item btn py-3 px-6 text-sm font-medium leading-3 rounded-md text-black cursor-pointer  duration-600 hover:text-green-600"> <a href="./form.jsp">Cadastre-se</a>
                 </div>
             </div>
-            <!-- in mobile phones -->
             <div id="mobile-bar" class="block md:hidden z-50 w-8 h-8">
                 <div class="line-full rounded-full my-2 h-1 bg-black"></div>
                 <div class="line-full rounded-full my-2 h-1 bg-black"></div>
@@ -128,7 +127,7 @@
             </div>
         </div>
     </div>
-    <!-- Descrição__Parte__1 -->
+    <!-- Descrição Parte 1 -->
     <div class="description1 grid grid-cols-1 my-40 items-center lg:grid-cols-2 justify-evenly gap-10 px-[5%]">
         <div class="left col-span-1 justify-self-center">
             <img src="./img/AgriculturaOrganica22.png" alt="Agricultura organica personagem">
@@ -146,7 +145,7 @@
             <button class="btn py-2 px-[14px] rounded">Saiba mais</button>                                             
         </div>
     </div>
-    <!-- Descrição__parte__2 -->
+    <!-- Descrição Parte 2 -->
     <div class="description2 grid grid-cols-1 my-40 items-center lg:grid-cols-2 justify-evenly gap-10 px-[5%]">
         <div class="left col-span-1 text-black">
             <h2 class="font-bold text-4xl  leading-[52px] lg:text-[42px]">Agricultura orgânica VS convencional</h2>
@@ -213,7 +212,7 @@
             </div>
         </div>
     </div>
-    <!-- contact__form -->
+    <!-- Contato -->
     <div class="contact text-center my-10 mx-[5%]" id="Contato">
         <div class="container px-[5%] mx-auto flex flex-col max-w-[900px] w-full justify-center items-center text-black">
             <form method="Post" action="mailto:programmerdeveloper@gmail.com">
