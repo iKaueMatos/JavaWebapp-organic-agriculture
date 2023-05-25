@@ -1,7 +1,7 @@
 
 # 🚀 Projeto Webapp Java com Apache Tomcat e Azure
 
-Este é um projeto webapp Java que utiliza o Apache Tomcat  e é implantado no Azure utilizando o banco de dados MYSQL. O objetivo desse projeto e ilustrar uma plataforma de vagas para pessoas que moram em lugares de dificil acesso de oportunidades de emprego.
+Este é um projeto webapp Java que utiliza o Apache Tomcat  e é implantado no Azure utilizando o banco de dados MYSQL. O objetivo desse projeto é ilustrar uma plataforma de vagas para pessoas que moram em lugares de dificil acesso de oportunidades de emprego.
 
 Link da aplicação:https://webappjava1.azurewebsites.net/Apsjava3/index.jsp
 
