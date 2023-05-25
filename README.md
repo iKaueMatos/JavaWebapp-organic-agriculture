@@ -65,4 +65,3 @@ Se você encontrar problemas ao implantar ou executar este projeto, tente o segu
 
 11.MySQL:É um sistema de gerenciamento de banco de dados relacional de código aberto. Ele é amplamente utilizado em aplicativos web para armazenar e gerenciar dados. MySQL é rápido, confiável e escalável, e suporta muitas linguagens de programação, incluindo PHP, Python, Java e C++. Ele também oferece recursos avançados de segurança e replicação, tornando-o uma escolha popular para aplicativos críticos.
 
-Tudo palhaço
