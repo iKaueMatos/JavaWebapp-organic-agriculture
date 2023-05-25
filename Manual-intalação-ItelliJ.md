@@ -96,4 +96,23 @@ Após ter finalizado ....
 
 6. Clique em "OK" para salvar as configurações do servidor Tomcat.
 
+# Para Iniciar o projeto!!
+  
+  1. Clique com botão direito dentro de um arquivo JSP que pode ser encontrado na pasta **src/main/webapp** 
+  Logo após ser executado o projeto entrara em fase de compilação e depois ele irar abrir no seu navegador **default** e aparecera um erro **404** 
+  
+ 2. Mas para abrir a aplicação de fato precisamos entrar em edite as configurações que pode ser localizado aqui!! 
 
+ ![Print](https://github.com/iKaueMatos/JavaWebapp-organic-agriculture/assets/98132837/d0f0b653-dd26-4dad-a3f7-ed0f215e66c9)
+
+Logo após de abrir o edite de configurações vamos aqui nessa parte,clicar em **deployment**:
+
+![print2](https://github.com/iKaueMatos/JavaWebapp-organic-agriculture/assets/98132837/191e546d-4e93-484c-94a3-6bd154238ce1)
+
+É após abrir o **deployment** vamos conseguir visualizar essa tela onde aparece** application content** obter o caminho do nosso arquivo compilado.
+
+![image](https://github.com/iKaueMatos/JavaWebapp-organic-agriculture/assets/98132837/3edd19ed-c016-4a85-8ae7-eb35ed16e52b)
+ 
+Após copiarmos essa URL do nosso aruqivo vamos colocar essa URL no browser **localhost:8080/Apsjava3_war** e pagina ira carregar normalmente !
+
+![imagem do site1](https://github.com/iKaueMatos/JavaWebapp-organic-agriculture/assets/98132837/739fc993-4686-4976-8817-1f5edba09a95)
