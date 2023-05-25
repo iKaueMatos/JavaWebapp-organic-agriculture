@@ -1,4 +1,4 @@
-# Manual de instalação da aplicação Java IntelliJ IDEA5
+# Manual de instalação da aplicação Java IntelliJ IDEA
 
 # Como efetuar a instalação do projeto ? 
 
