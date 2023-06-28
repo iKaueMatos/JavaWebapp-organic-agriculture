@@ -52,7 +52,7 @@ $(document).ready(function() {
 
 //Valida idade
 $(document).ready(function() {
-    if (!($('#idade').val() > 2) || $('#idade').val() == null) {
+    if (!($('#idade').val() > 0) || $('#idade').val() == null) {
         alert('Ocorreu um erro na hora do envio porfavor preecha novamente!');
         $('#idade').addClass('outline-red-950');
     }
